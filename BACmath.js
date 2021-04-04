@@ -1,23 +1,17 @@
 
-
-
-
 function calculations(){
     //get Value of beers
-    let beers = parseFloat($("#Beers").val())* .54
-    beers = beers.toFixed(2)
-    $("#beerOz").text(`${beers} ounces of alcohol consumed for beers`)
+    let beers = parseFloat($("#Beers").val())* .54;
+    $("#beerOz").text(`${beers.toFixed(2)} ounces of alcohol consumed for beers`)
 
 
     //get Value of wine
-    let wine = parseFloat($("#Wine").val())* .6
-    wine = wine.toFixed(2)
-    $("#wineOz").text(`${wine} ounces of alcohol consumed for wine glasses`)
+    let wine = parseFloat($("#Wine").val())* .6;
+    $("#wineOz").text(`${wine.toFixed(2)} ounces of alcohol consumed for wine glasses`)
 
     //get Value of shots
-    let shots = parseFloat($("#shots").val())* .6
-    shots = shots.toFixed(2)
-    $("#shotOz").text(`${shots} ounces of alcohol consumed for Shots`)
+    let shots = parseFloat($("#shots").val())* .6;
+    $("#shotOz").text(`${shots.toFixed(2)} ounces of alcohol consumed for Shots`)
     //get Value of weight
     let weight =parseFloat( $("#weight").val())
 
