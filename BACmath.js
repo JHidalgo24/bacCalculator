@@ -34,7 +34,7 @@ function calculations(){
     alcContent = alcContent - alcLoss
 
     //round result to three decimal places (.XXX%)
-    alcContent.toFixed(3)
+    alcContent = alcContent.toFixed(3)
 
     $("#output").text(`Your Blood Alcohol Content (BAC) is ${alcContent}`)
 }
