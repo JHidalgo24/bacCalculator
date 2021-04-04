@@ -12,42 +12,45 @@
 <main>
   <h1>Blood Alcohol Calculator</h1>
   <section>
-<label for="Beers">Number of Beers Consumed</label><input type="number" max="50" id="Beers" alt="Beer Counter">
-
+<label for="Beers">Number of beers consumed</label><input type="number" max="50"  id="Beers" alt="Beer Counter" value="0">
+    <p id="beerOz">There are .54 liquid ounces of alcohol in one beer</p>
   </section>
 
   <br>
   <br>
 
   <section>
-    <label for="Wine">Glasses of Wine Consumed</label><input type="number" max="50" id="Wine" alt="Beer Counter">
-
+    <label for="Wine">Glasses of wine consumed</label><input type="number" max="50" min="0"id="Wine" alt="Beer Counter" value="0">
+<p id="wineOz">There are .6 liquid ounces of alcohol in one glass of wine</p>
   </section>
 
   <br>
   <br>
 
   <section>
-    <label for="shots">Number of shots Consumed</label><input type="number" max="50" id="shots" alt="Beer Counter">
+    <label for="shots">Number of shots consumed</label><input type="number" max="50"min="0"id="shots" alt="Beer Counter" value="0">
+    <p id="shotOz">There are .6 liquid ounces of alcohol in one shot</p>
   </section>
 
   <br>
   <br>
 
   <section>
-    <label for="weight">Your weight in Pounds</label><input type="number" max="500" id="weight" alt="Beer Counter">
+    <label for="weight">Your weight in pounds</label><input type="number" max="500" min="0" id="weight" alt="Beer Counter" value="0">
+
   </section>
 
   <br>
   <br>
 
   </section>
-    <label for="hours">Hours since your First Drink</label><input type="number" max="24" id="hours" alt="Beer Counter">
+    <label for="hours">Hours since your first drink</label><input type="number" max="24"min="0" id="hours" alt="Beer Counter" value="0">
+
   </section>
 
   <br>
   <br>
-  <button onclick="calculations()">Math Time</button>
+  <button onclick="calculations()">Calculation Time</button>
 
   <section class="output">
 <h1>Your Blood Alcohol Content (BAC) is</h1>
