@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+  <meta charset="UTF-8">
+  <title>BAC Calculator</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="BACmath.js"></script>
+</head>
+<body>
+<main>
+  <h1>Blood Alcohol Calculator</h1>
+  <section>
+<label for="Beers">Number of Beers Consumed</label><input type="number" max="50" id="Beers" alt="Beer Counter">
+
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <label for="Wine">Glasses of Wine Consumed</label><input type="number" max="50" id="Wine" alt="Beer Counter">
+
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <label for="shots">Number of shots Consumed</label><input type="number" max="50" id="shots" alt="Beer Counter">
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <label for="weight">Your weight in Pounds</label><input type="number" max="500" id="weight" alt="Beer Counter">
+  </section>
+
+  <br>
+  <br>
+
+  </section>
+    <label for="hours">Hours since your First Drink</label><input type="number" max="24" id="hours" alt="Beer Counter">
+  </section>
+
+  <br>
+  <br>
+  <button onclick="calculations()">Math Time</button>
+
+  <section class="output">
+<h1>Your Blood Alcohol Content (BAC) is</h1>
+    <section>
+      <h1 id="output"></h1>
+    </section>
+  </section>
+</main>
+</body>
+</html>

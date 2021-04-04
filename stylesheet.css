@@ -1,0 +1,23 @@
+body{
+    background: lightgray;
+}
+
+main{
+    display: block;
+}
+label{
+    font-size: 200%;
+    font-family: Georgia;
+    border-top: black dotted;
+}
+h1{
+    font-family: Verdana;
+}
+input{
+    width: 200px;
+    height: 25px;
+    background: antiquewhite;
+}
+#output{
+display: none;
+}
